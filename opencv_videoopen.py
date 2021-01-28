@@ -7,7 +7,6 @@ cap = cv2.VideoCapture(video_file)
 #캡처 객체 초기화 확인
 if cap.isOpened():
     while True:
-
         # 다음 프레임 읽기
         ret, img = cap.read()
 
